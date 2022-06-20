@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "git cz"
+    "commit": "git cz",
+    "release": "standard-version"
   },
   "husky": {
     "hooks": {
@@ -17,6 +18,7 @@
     "cz-customizable": "^6.3.0",
     "husky": "^8.0.1",
     "lerna": "^5.1.4",
+    "standard-version": "^9.5.0",
     "yorkie": "^2.0.0"
   },
   "workspaces": [
