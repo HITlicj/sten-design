@@ -9,11 +9,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "config": {
-    "commitizen": {
-      "path": "cz-customizable"
-    }
-  },
   "dependencies": {
     "@sten-design/icons": "^1.0.0",
     "@sten-design/themes": "^1.0.0"

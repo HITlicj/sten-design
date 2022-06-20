@@ -11,6 +11,11 @@
       "commit-msg": "commitlint -e -V"
     }
   },
+  "config": {
+    "commitizen": {
+      "path": "cz-customizable"
+    }
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.0.2",
     "commitizen": "^4.2.4",
