@@ -1,0 +1,127 @@
+@import './color/css-variables.less';
+
+@{sten-theme-tag} {
+  @{sten-cssvars-prefix}-color-white: @color-white;
+  @{sten-cssvars-prefix}-color-black: @color-black;
+  @{sten-cssvars-prefix}-color-border: @color-border;
+  @{sten-cssvars-prefix}-color-bg-popup: @color-bg-popup;
+  @{sten-cssvars-prefix}-color-bg-1: @color-bg-1;
+  @{sten-cssvars-prefix}-color-bg-2: @color-bg-2;
+  @{sten-cssvars-prefix}-color-bg-3: @color-bg-3;
+  @{sten-cssvars-prefix}-color-bg-4: @color-bg-4;
+  @{sten-cssvars-prefix}-color-bg-5: @color-bg-5;
+  @{sten-cssvars-prefix}-color-bg-white: @color-bg-white;
+  @{sten-cssvars-prefix}-color-neutral-1: rgb(var(~'@{sten-cssvars-prefix}-gray-1'));
+  @{sten-cssvars-prefix}-color-neutral-2: rgb(var(~'@{sten-cssvars-prefix}-gray-2'));
+  @{sten-cssvars-prefix}-color-neutral-3: rgb(var(~'@{sten-cssvars-prefix}-gray-3'));
+  @{sten-cssvars-prefix}-color-neutral-4: rgb(var(~'@{sten-cssvars-prefix}-gray-4'));
+  @{sten-cssvars-prefix}-color-neutral-5: rgb(var(~'@{sten-cssvars-prefix}-gray-5'));
+  @{sten-cssvars-prefix}-color-neutral-6: rgb(var(~'@{sten-cssvars-prefix}-gray-6'));
+  @{sten-cssvars-prefix}-color-neutral-7: rgb(var(~'@{sten-cssvars-prefix}-gray-7'));
+  @{sten-cssvars-prefix}-color-neutral-8: rgb(var(~'@{sten-cssvars-prefix}-gray-8'));
+  @{sten-cssvars-prefix}-color-neutral-9: rgb(var(~'@{sten-cssvars-prefix}-gray-9'));
+  @{sten-cssvars-prefix}-color-neutral-10: rgb(var(~'@{sten-cssvars-prefix}-gray-10'));
+  @{sten-cssvars-prefix}-color-text-1: @color-text-1;
+  @{sten-cssvars-prefix}-color-text-2: @color-text-2;
+  @{sten-cssvars-prefix}-color-text-3: @color-text-3;
+  @{sten-cssvars-prefix}-color-text-4: @color-text-4;
+  @{sten-cssvars-prefix}-color-border-1: @color-border-1;
+  @{sten-cssvars-prefix}-color-border-2: @color-border-2;
+  @{sten-cssvars-prefix}-color-border-3: @color-border-3;
+  @{sten-cssvars-prefix}-color-border-4: @color-border-4;
+  @{sten-cssvars-prefix}-color-fill-1: @color-fill-1;
+  @{sten-cssvars-prefix}-color-fill-2: @color-fill-2;
+  @{sten-cssvars-prefix}-color-fill-3: @color-fill-3;
+  @{sten-cssvars-prefix}-color-fill-4: @color-fill-4;
+  @{sten-cssvars-prefix}-color-primary-light-1: @color-primary-light-1;
+  @{sten-cssvars-prefix}-color-primary-light-2: @color-primary-light-2;
+  @{sten-cssvars-prefix}-color-primary-light-3: @color-primary-light-3;
+  @{sten-cssvars-prefix}-color-primary-light-4: @color-primary-light-4;
+  @{sten-cssvars-prefix}-color-secondary: @color-secondary;
+  @{sten-cssvars-prefix}-color-secondary-hover: @color-secondary-hover;
+  @{sten-cssvars-prefix}-color-secondary-active: @color-secondary-active;
+  @{sten-cssvars-prefix}-color-secondary-disabled: @color-secondary-disabled;
+  @{sten-cssvars-prefix}-color-danger-light-1: @color-danger-light-1;
+  @{sten-cssvars-prefix}-color-danger-light-2: @color-danger-light-2;
+  @{sten-cssvars-prefix}-color-danger-light-3: @color-danger-light-3;
+  @{sten-cssvars-prefix}-color-danger-light-4: @color-danger-light-4;
+  @{sten-cssvars-prefix}-color-success-light-1: @color-success-light-1;
+  @{sten-cssvars-prefix}-color-success-light-2: @color-success-light-2;
+  @{sten-cssvars-prefix}-color-success-light-3: @color-success-light-3;
+  @{sten-cssvars-prefix}-color-success-light-4: @color-success-light-4;
+  @{sten-cssvars-prefix}-color-warning-light-1: @color-warning-light-1;
+  @{sten-cssvars-prefix}-color-warning-light-2: @color-warning-light-2;
+  @{sten-cssvars-prefix}-color-warning-light-3: @color-warning-light-3;
+  @{sten-cssvars-prefix}-color-warning-light-4: @color-warning-light-4;
+  @{sten-cssvars-prefix}-color-link-light-1: @color-link-light-1;
+  @{sten-cssvars-prefix}-color-link-light-2: @color-link-light-2;
+  @{sten-cssvars-prefix}-color-link-light-3: @color-link-light-3;
+  @{sten-cssvars-prefix}-color-link-light-4: @color-link-light-4;
+
+  // radius
+  @{sten-cssvars-prefix}-border-radius-none: @border-radius-none;
+  @{sten-cssvars-prefix}-border-radius-small: @border-radius-small;
+  @{sten-cssvars-prefix}-border-radius-medium: @border-radius-medium;
+  @{sten-cssvars-prefix}-border-radius-large: @border-radius-large;
+  @{sten-cssvars-prefix}-border-radius-circle: @border-radius-circle;
+  // component
+  @{sten-cssvars-prefix}-color-tooltip-bg: @color-tooltip-bg;
+  @{sten-cssvars-prefix}-color-spin-layer-bg: @color-spin-layer-bg;
+  @{sten-cssvars-prefix}-color-menu-dark-bg: @color-menu-dark-bg;
+  @{sten-cssvars-prefix}-color-menu-light-bg: @color-menu-light-bg;
+  @{sten-cssvars-prefix}-color-menu-dark-hover: @color-menu-dark-hover;
+  @{sten-cssvars-prefix}-color-mask-bg: @mask-color-bg;
+}
+
+@{sten-theme-tag} {
+  &[sten-theme='dark'] {
+    @{sten-cssvars-prefix}-color-white: @dark-color-white; // 在亮色模式下所有白色文字对应。对应 @color-white;
+    @{sten-cssvars-prefix}-color-black: @dark-color-black;
+    @{sten-cssvars-prefix}-color-border: @dark-color-border;
+    @{sten-cssvars-prefix}-color-bg-1: @dark-color-bg-1; // 整体背景，就是 @dark-gray-1
+    @{sten-cssvars-prefix}-color-bg-2: @dark-color-bg-2; // 一级容器背景 (“白色”)
+    @{sten-cssvars-prefix}-color-bg-3: @dark-color-bg-3; // 二级容器背景
+    @{sten-cssvars-prefix}-color-bg-4: @dark-color-bg-4; // 三级容器背景
+    @{sten-cssvars-prefix}-color-bg-5: @dark-color-bg-5; // 下拉框、Tooltips 背景
+    @{sten-cssvars-prefix}-color-bg-white: @dark-color-bg-white; // 在亮色模式下 radio，switch 白色背景
+    @{sten-cssvars-prefix}-color-text-1: @dark-color-text-1; // 标题，正文
+    @{sten-cssvars-prefix}-color-text-2: @dark-color-text-2; // 语句
+    @{sten-cssvars-prefix}-color-text-3: @dark-color-text-3; // 次要信息
+    @{sten-cssvars-prefix}-color-text-4: @dark-color-text-4; // 禁用态
+    @{sten-cssvars-prefix}-color-fill-1: @dark-color-fill-1;
+    @{sten-cssvars-prefix}-color-fill-2: @dark-color-fill-2;
+    @{sten-cssvars-prefix}-color-fill-3: @dark-color-fill-3;
+    @{sten-cssvars-prefix}-color-fill-4: @dark-color-fill-4;
+    @{sten-cssvars-prefix}-color-primary-light-1: @dark-color-primary-light-1;
+    @{sten-cssvars-prefix}-color-primary-light-2: @dark-color-primary-light-2;
+    @{sten-cssvars-prefix}-color-primary-light-3: @dark-color-primary-light-3;
+    @{sten-cssvars-prefix}-color-primary-light-4: @dark-color-primary-light-4;
+    @{sten-cssvars-prefix}-color-secondary: @dark-color-secondary;
+    @{sten-cssvars-prefix}-color-secondary-hover: @dark-color-secondary-hover;
+    @{sten-cssvars-prefix}-color-secondary-active: @dark-color-secondary-active;
+    @{sten-cssvars-prefix}-color-secondary-disabled: @dark-color-secondary-disabled;
+    @{sten-cssvars-prefix}-color-danger-light-1: @dark-color-danger-light-1;
+    @{sten-cssvars-prefix}-color-danger-light-2: @dark-color-danger-light-2;
+    @{sten-cssvars-prefix}-color-danger-light-3: @dark-color-danger-light-3;
+    @{sten-cssvars-prefix}-color-danger-light-4: @dark-color-danger-light-4;
+    @{sten-cssvars-prefix}-color-success-light-1: @dark-color-success-light-1;
+    @{sten-cssvars-prefix}-color-success-light-2: @dark-color-success-light-2;
+    @{sten-cssvars-prefix}-color-success-light-3: @dark-color-success-light-3;
+    @{sten-cssvars-prefix}-color-success-light-4: @dark-color-success-light-4;
+    @{sten-cssvars-prefix}-color-warning-light-1: @dark-color-warning-light-1;
+    @{sten-cssvars-prefix}-color-warning-light-2: @dark-color-warning-light-2;
+    @{sten-cssvars-prefix}-color-warning-light-3: @dark-color-warning-light-3;
+    @{sten-cssvars-prefix}-color-warning-light-4: @dark-color-warning-light-4;
+    @{sten-cssvars-prefix}-color-link-light-1: @dark-color-link-light-1;
+    @{sten-cssvars-prefix}-color-link-light-2: @dark-color-link-light-2;
+    @{sten-cssvars-prefix}-color-link-light-3: @dark-color-link-light-3;
+    @{sten-cssvars-prefix}-color-link-light-4: @dark-color-link-light-4;
+    // component
+    @{sten-cssvars-prefix}-color-tooltip-bg: @dark-color-tooltip-bg;
+    @{sten-cssvars-prefix}-color-spin-layer-bg: @dark-color-spin-layer-bg;
+    @{sten-cssvars-prefix}-color-menu-dark-bg: @color-menu-dark-bg;
+    @{sten-cssvars-prefix}-color-menu-light-bg: @color-menu-dark-bg;
+    @{sten-cssvars-prefix}-color-menu-dark-hover: @dark-color-menu-dark-hover;
+    @{sten-cssvars-prefix}-color-mask-bg: @dark-mask-color-bg;
+  }
+}
