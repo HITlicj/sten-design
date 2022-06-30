@@ -1,4 +1,4 @@
-const { getRgbStr } = require('@sten-design/color');
+const { getRgbStr } = require('@arco-design/color');
 
 module.exports = {
   install(_, __, functions) {

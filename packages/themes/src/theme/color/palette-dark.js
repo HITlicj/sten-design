@@ -1,4 +1,4 @@
-const { generate } = require('@sten-design/color');
+const { generate } = require('@arco-design/color');
 
 module.exports = {
   install(_, __, functions) {
