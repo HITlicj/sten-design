@@ -1,38 +1,42 @@
 {
-  "name": "sten-design",
-  "version": "1.1.0",
-  "private": true,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "git cz",
-    "release": "standard-version",
-    "start:components": "lerna run start --scope=@sten-design/components",
-    "generate:components": "lerna run generate --scope=@sten-design/components"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -e -V"
+    "name": "sten-design",
+    "version": "1.1.0",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "commit": "git cz",
+        "release": "standard-version",
+        "start:components": "lerna run start --scope=@sten-design/components",
+        "generate:components": "lerna run generate --scope=@sten-design/components",
+        "build:css": "arco-scripts build:component:css"
+    },
+    "husky": {
+        "hooks": {
+            "commit-msg": "commitlint -e -V"
+        }
+    },
+    "config": {
+        "commitizen": {
+            "path": "cz-customizable"
+        }
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^17.0.2",
+        "commitizen": "^4.2.4",
+        "commitlint-config-cz": "^0.13.3",
+        "cz-customizable": "^6.3.0",
+        "husky": "^8.0.1",
+        "lerna": "^5.1.4",
+        "standard-version": "^9.5.0",
+        "yorkie": "^2.0.0"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "dependencies": {
+        "@arco-design/color": "^0.4.0",
+        "arco-scripts": "^1.27.7",
+        "prettier": "^2.7.1",
+        "stencil": "^0.0.5"
     }
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-customizable"
-    }
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^17.0.2",
-    "commitizen": "^4.2.4",
-    "commitlint-config-cz": "^0.13.3",
-    "cz-customizable": "^6.3.0",
-    "husky": "^8.0.1",
-    "lerna": "^5.1.4",
-    "standard-version": "^9.5.0",
-    "yorkie": "^2.0.0"
-  },
-  "workspaces": [
-    "packages/*"
-  ],
-  "dependencies": {
-    "stencil": "^0.0.5"
-  }
 }
