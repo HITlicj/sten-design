@@ -1,0 +1,1 @@
+exports.default = {"name":"svg","type":"element","value":"","attributes":{"fill":"none","stroke":"currentColor","stroke-width":"4","viewBox":"0 0 48 48"},"children":[{"name":"path","type":"element","value":"","attributes":{"d":"M38.5 17H29a1 1 0 0 1-1-1V6.5m0-.5H10a1 1 0 0 0-1 1v34a1 1 0 0 0 1 1h28a1 1 0 0 0 1-1V17L28 6Z"},"children":[]}],"_name":"drive-file"}

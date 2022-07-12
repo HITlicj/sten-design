@@ -1,0 +1,1 @@
+exports.default = {"name":"svg","type":"element","value":"","attributes":{"fill":"none","stroke":"currentColor","stroke-width":"4","viewBox":"0 0 48 48"},"children":[{"name":"path","type":"element","value":"","attributes":{"d":"M24 28V14m0 16v4M6 24c0-9.941 8.059-18 18-18s18 8.059 18 18-8.059 18-18 18S6 33.941 6 24Z"},"children":[]}],"_name":"exclamation-circle"}

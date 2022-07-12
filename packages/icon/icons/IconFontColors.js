@@ -1,0 +1,1 @@
+exports.default = {"name":"svg","type":"element","value":"","attributes":{"fill":"none","stroke":"currentColor","stroke-width":"4","viewBox":"0 0 48 48"},"children":[{"name":"path","type":"element","value":"","attributes":{"d":"M9 41h30M16.467 22 11.5 34m20.032-12L24.998 7h-2l-6.532 15h15.065Zm0 0H16.467h15.065Zm0 0L36.5 34l-4.968-12Z"},"children":[]}],"_name":"font-colors"}

@@ -1,0 +1,1 @@
+exports.default = {"name":"svg","type":"element","value":"","attributes":{"fill":"none","stroke":"currentColor","stroke-width":"4","viewBox":"0 0 48 48"},"children":[{"name":"path","type":"element","value":"","attributes":{"d":"M20 10h23M20 24h23M20 38h23M9 12v28m0-28a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm0 26h7M9 24h7"},"children":[]}],"_name":"mind-mapping"}

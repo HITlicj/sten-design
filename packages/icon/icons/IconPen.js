@@ -1,0 +1,1 @@
+exports.default = {"name":"svg","type":"element","value":"","attributes":{"fill":"none","stroke":"currentColor","stroke-width":"4","viewBox":"0 0 48 48"},"children":[{"name":"path","type":"element","value":"","attributes":{"d":"m28.364 11.565 7.07 7.071M7.15 32.778 33.313 6.615l7.071 7.071L14.221 39.85h-7.07v-7.07Z"},"children":[]}],"_name":"pen"}

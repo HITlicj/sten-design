@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "svgo": "^2.8.0",
+    "svgson": "^5.2.1"
+  }
 }
